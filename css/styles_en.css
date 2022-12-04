@@ -1,0 +1,92 @@
+body {
+  direction: ltr;
+}
+
+@media (max-width: 991px) {
+  .header .nav_header .nav_bar {
+    right: unset;
+    left: 0;
+    -webkit-transform: translateX(-115%);
+            transform: translateX(-115%);
+  }
+}
+
+.header .nav_header .search_label button.float_btn {
+  width: 70px;
+  border-radius: 0 30px 30px 0 !important;
+  right: 0;
+  left: unset;
+}
+
+.main_carusel .carousel_items .slider_content {
+  direction: ltr;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "\f061";
+}
+
+.input_select .nice-select:after {
+  right: 12px;
+  left: unset;
+}
+
+.float_sign {
+  right: 5%;
+  left: unset;
+}
+
+.nav-tabs .actSpan {
+  left: 0;
+  right: unset;
+}
+
+.content_warpper #cards_list.closed {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+#accordion button:after {
+  float: right;
+}
+
+.lang_ladel .check_track .act_span {
+  left: 0;
+  right: unset;
+}
+
+@media (max-width: 992px) {
+  .body_toggle .aside_nav {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  .body_toggle .content_data_profile.min {
+    -webkit-transform: translateX(200px);
+            transform: translateX(200px);
+  }
+}
+
+.form__label .float__label {
+  left: 10px;
+  right: unset;
+}
+
+.profile_input .default_input {
+  direction: rtl;
+}
+
+.default_input:focus + .float__label, .default_input:not(:placeholder-shown) + .float__label {
+  -webkit-transform: translateX(-150%);
+          transform: translateX(-150%);
+}
+
+.float_btn {
+  right: 0;
+  left: unset;
+}
+
+.float_icon {
+  left: unset;
+  right: 16px;
+}
+/*# sourceMappingURL=styles_en.css.map */

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- plugins for this page  -->
+    <link rel="stylesheet" href="../css/jquery.fancybox.min.css">
+    <!-- main styles -->
+    <link rel="stylesheet" href="../css/defaults.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- <link rel="stylesheet" href="../css/styles_en.css"> -->
+
+    <title>Mazadat</title>
+</head>
+
+<body>
+    <div class="loader_wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!-- start heade -->
+    <header class="header">
+        <div class="top_header bgGray p-2">
+            <div class="default_container">
+                <div class="d-flex align-items-center
+                        justify-content-between">
+                    <h1 class="font11 text-white mb-0">مع مسيوم انت كسبان</h1>
+                    <a class="default_link text-white font11" href="">
+                        <div class="d-flex align-items-center">
+                            <span>Browse in English</span>
+                            <span class="pt-1 M_start_5">
+                                <ion-icon name="globe-outline"></ion-icon>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="nav_header">
+            <div class="default_container">
+                <div class="row">
+                    <div class="col-lg-2 col">
+                        <div class="logo">
+                            <a class="default_link" href="index.html">
+                                <img src="../images/logo.webp" alt="logo
+                                        site">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col">
+                        <div class="row w-100 m-0">
+                            <div class="col-lg-8 col-12">
+                                <form class="w-100" action="">
+                                    <label class="search_label">
+                                        <input type="search" placeholder="اكتب ما تريد ان
+                                                تبحث عنه">
+                                        <button class="btn float_btn
+                                                bgColor2 up">بحث</button>
+                                    </label>
+                                </form>
+                            </div>
+                            <div class="col-lg-4 col-12 P_end_1">
+                                <div class="d-flex align-items-center
+                                        justify-content-end">
+                                    <button id="toggle_slide" class="btn
+                                            d-lg-none d-block font20 pt-1"><i class="fas fa-bars"></i></button>
+                                    <a href="add_car.html" class="btn
+                                            main_btn bgColor2 radius up raise
+                                            M_end_10">
+                                        <span class="pt-1 M_end_5">
+                                            <ion-icon name="car-sport-outline"></ion-icon>
+                                        </span>
+                                        <span>اضف سيارتك</span>
+                                    </a>
+                                    <!-- <a href="login.html" class="btn main_btn bgColor radius up raise">
+                                        <span class="pt-1 M_end_5">
+                                            <ion-icon name="log-in-outline"></ion-icon>
+                                        </span>
+                                        <span>الدخول</span>
+                                    </a> -->
+                                    <a href="account.html" class="btn
+                                            main_btn bgColor radius up raise">
+                                        <span class="pt-1 M_end_5">
+                                            <ion-icon name="person-outline"></ion-icon>
+                                        </span>
+                                        <span>حسابي</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="nav_layer"> </div>
+                            <div id="nav_bar" class="nav_bar">
+                                <div class="logo d-lg-none d-flex
+                                        justify-content-center p-3">
+                                    <a class="default_link" href="index.html">
+                                        <img src="../images/logo-footer.webp" alt="logo site">
+                                    </a>
+                                </div>
+
+                                <ul>
+                                    <li><a class="default_link" href="index.html">الرئسيه</a></li>
+                                    <li><a class="default_link" href="harj_cars.html">حراج
+                                            السيارات</a></li>
+                                    <li><a class="default_link" href="showrooms.html">المعارض</a></li>
+                                    <li><a class="default_link" href="offers.html">العروض</a></li>
+                                    <li><a class="default_link" href="about.html">عن مسيوم</a></li>
+                                    <li><a class="default_link" href="rating_cars.html">تقييم
+                                            السيارات</a></li>
+                                    <li><a class="default_link" href="terms.html">الشروط
+                                            والاحكام</a></li>
+                                    <li><a class="default_link" href="contact.html">تواصل معنا</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- content -->
+    <div class="content mt-2 mb-4">
+        <div class="default_container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item">
+                        <a class="default_link mainColor font14 pt-1" href="index.html">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">حسابي</li>
+                </ol>
+            </nav>
+            <div class="d-lg-none d-block">
+                <button id="aside_toggle" class="btn raise bgf3 mb-3 up radius5 font15 d-flex justify-content-center align-items-center width35">
+                    <img class="width18" src="../images/side_List.webp" alt="side List">
+                </button>
+            </div>
+            <div class="body_toggle">
+                <div id="aside_nav" class="aside_nav">
+                    <div class="bgColor p-2 text-center text-white">
+                        <span>مرحبا احمد مكاوي</span>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="my_auction.html" class="default_link">
+                                <span><i class="fas fa-gavel"></i></span>
+                                <span>مزايداتي</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="wallet.html" class="default_link">
+                                <span><i class="fas fa-wallet"></i></span>
+                                <span>المحفظه</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="my_ads.html" class="default_link">
+                                <span><i class="fas fa-car"></i></span>
+                                <span>إعلاناتي</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="account.html" class="default_link">
+                                <span></span><i class="fas fa-user"></i></span>
+                                <span>الملف الشخصي</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="favorite.html" class="default_link">
+                                <span><i class="fas fa-heart"></i></span>
+                                <span>المفضلة</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="my_orders.html" class="default_link">
+                                <span><i class="fas fa-list"></i></span>
+                                <span>طلباتي</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="support.html" class="default_link">
+                                <span><i class="fas fa-comment-dots"></i></span>
+                                <span>طلب المساعدة</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="complains.html" class="default_link">
+                                <span><i class="fas fa-car"></i></span>
+                                <span>النزاعات و الشكاوي</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="login.html" class="default_link">
+                                <span><i class="fas fa-sign-out-alt"></i></span>
+                                <span>تسجيل الخروج</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="content_data_profile" class="content_data_profile">
+                    <div class="d-flex flex-column gap5 mb-3">
+                        <span class="font14 mainColor2 fontBold">معلومات الملف الشخصي</span>
+                        <span class="font12 fontBold text-secondary">تغيير الاسم والبريد الإلكتروني وكلمة المرور</span>
+                    </div>
+                    <form action="">
+                        <div class="profile_input">
+                            <div class="radius5 opacity1 p-2 d-flex align-items-center gap5">
+                                <span class="mainColor2 font12 fontBold">الإسم ,</span>
+                                <span class="mainColor2 font12 fontBold">اللغة</span>
+                            </div>
+                            <div class="form__label mt-1">
+                                <input class="default_input" type="text" value="احمد مكاوي" placeholder="الاسم">
+                                <label class="float__label" for="">الاسم</label>
+                            </div>
+                            <div class="lang_ladel">
+                                <span>اللغة</span>
+                                <div class="check_track">
+                                    <div class="lang_item ar act">
+                                        <input type="radio" name="radio_lang" checked class="float_input">
+                                        <span>العربية</span>
+                                    </div>
+                                    <div class="lang_item en">
+                                        <input type="radio" name="radio_lang" class="float_input">
+                                        <span>English</span>
+                                    </div>
+                                    <span class="act_span"></span>
+                                </div>
+                            </div>
+                            <div class="radius5 opacity1 p-2 mt-3 mb-3">
+                                <span class="mainColor2 font12 fontBold">معلومات الحساب</span>
+                            </div>
+                            <div class="form__label mt-1">
+                                <input class="default_input" type="email" value="salahelhadidi@gmail.com"
+                                    placeholder="البريد الإلكتروني">
+                                <label class="float__label" for="">البريد الإلكتروني</label>
+                            </div>
+                            <div class="form__label mt-1">
+                                <input class="default_input" type="password" value="احمد مكاوي" placeholder="كلمة السر">
+                                <label class="float__label" for="">كلمة السر</label>
+                            </div>
+                            <div class="form__label mt-1">
+                                <input class="default_input" type="number" value="010255866338"
+                                    placeholder="رقم الجوال">
+                                <label class="float__label" for="">رقم الجوال</label>
+                            </div>
+                            <button class="btn M_auto main_btn bgColor2 up raise mt-3">تعديل</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end content -->
+
+    <!-- start footer -->
+    <footer class="pt-5">
+        <div class="default_container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12 mb-2">
+                    <div class="d-flex flex-column">
+                        <img class="width100 H-auto mb-3" src="../images/logo-footer.webp" alt="logo
+                                footer">
+                        <p>
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس لقدتم
+                            المساحة، لقد تم توليد هذا النص من مولد النص
+                            العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد
+                            من النصوص الأخرى إضافة هذا النص هو مثال هذا
+                            النص هو مثال
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mb-2">
+                    <div class="footer_links">
+                        <h6 class="mainColor mb-3">حسابي</h6>
+                        <ul>
+                            <li><a class="default_link" href="about.html">نبذه
+                                    عن مسيوم</a></li>
+                            <li><a class="default_link" href="login.html">تسجيل
+                                    دخول</a></li>
+                            <li><a class="default_link" href="registration.html">تسجيل جديد</a></li>
+                            <li><a class="default_link" href="auctions_show.html">مزاداتي</a></li>
+                            <li><a class="default_link" href="my_cars.html">سياراتي</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mb-2">
+                    <div class="footer_links">
+                        <h6 class="mainColor mb-3">مسيوم</h6>
+                        <ul>
+                            <li><a class="default_link" href="all_auctions.html">المزادات</a></li>
+                            <li><a class="default_link" href="car_sale.html">بيع السيارات</a></li>
+                            <li><a class="default_link" href="common_questions.html">الأسئلة
+                                    الشائعه</a></li>
+                            <li><a class="default_link" href="contact.html">اتصل
+                                    بنا</a></li>
+                            <li><a class="default_link" href="parteners.html">شركائنا</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mb-2">
+                    <h6 class="mainColor mb-3">تواصل معنا</h6>
+                    <div class="d-flex align-items-center mb-3">
+                        <span class="M_end_7"><i class="fas
+                                    fa-map-marker-alt"></i></span>
+                        <span>الرياض - الممكلة العربية السعودية</span>
+                    </div>
+                    <a href="tel:01022426998" class="default_link text-white
+                            d-flex align-items-center mb-3">
+                        <span class="M_end_7"><i class="fas fa-phone"></i></span>
+                        <span>0545123723</span>
+                    </a>
+                    <a href="mailto:sala7el7adidi@gmail.com" class="default_link text-white d-flex
+                            align-items-center mb-3">
+                        <spa class="M_end_7" n><i class="fas fa-envelope"></i></span>
+                            <span>info@aait.sa</span>
+                    </a>
+                    <div class="d-flex align-items-center">
+                        <a class="default_link" href="">
+                            <img class="width25 H-auto M_end_10" src="../images/google.webp" alt="google">
+                        </a>
+                        <a class="default_link" href="">
+                            <img class="width25 H-auto M_end_10" src="../images/twitter.webp" alt="twitter">
+                        </a>
+                        <a class="default_link" href="">
+                            <img class="width25 H-auto M_end_10" src="../images/facebook.webp" alt="facebook">
+                        </a>
+                        <a class="default_link" href="">
+                            <img class="width25 H-auto M_end_10" src="../images/youtube.webp" alt="youtube">
+                        </a>
+                        <a class="default_link" href="">
+                            <img class="width25 H-auto M_end_10" src="../images/linked.webp" alt="linked">
+                        </a>
+                        <a class="default_link" href="">
+                            <img class="width25 H-auto M_end_10" src="../images/instegram.webp" alt="instegram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="last_footer">
+            <div class="default_container">
+                <div class="d-flex align-items-center
+                        justify-content-between flex-wrap">
+                    <span class="font12">حميع الحقوق محفوظة لموقع مسيوم</span>
+                    <span class="font12">
+                        تصميم و برمجة <a class="default_link" href="https://aait.sa/">اوامر الشبكة</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script type="text/javascript">  new WOW().init(); </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- main js  -->
+    <script src="../js/main.js"></script>
+
+    <!-- scripts -->
+    <script>
+        aside_toggle.onclick = function () {
+            aside_nav.classList.toggle('open');
+            content_data_profile.classList.toggle('min');
+        };
+    </script>
+    <script>
+        $('input[name="radio_lang"]').on('change', function () {
+            if ($(this).prop('checked')) {
+                $(".lang_item").removeClass('act');
+                $(this).parent().addClass('act');
+            }
+        })
+    </script>
+    <script>
+
+        $(document).ready(function () {
+            var sideButtons = document.querySelector('.aside_nav ul').getElementsByTagName('li');
+            for (var i = 0; i < sideButtons.length; i++) {
+                const a = sideButtons[i].getElementsByTagName('a')[0];
+                console.log('window', window.location.href);
+                console.log('link', a.href);
+                if (window.location.href == a.href) {
+                    sideButtons[i].classList.add('active');
+                    break;
+                }
+            }
+        })
+
+    </script>
+</body>
+
+</html>

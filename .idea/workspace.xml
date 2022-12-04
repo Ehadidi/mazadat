@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="452a8521-b22f-4fe7-9f0f-4fae04402c55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/flatpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/car_behind.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/car_front.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/car_inside.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/car_left.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/car_right.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/wallet-animation.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/flatpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/View_auction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/activation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/add_car2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/dispute_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/open_dispute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/order_veiw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/wallet_charging.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/defaults.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/defaults.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/defaults.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/defaults.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/defaults.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/defaults.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/images.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/مزادات مسيوم.xd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/add_car.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/add_car.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/common_questions.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/common_questions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/complains.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/complains.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/favorite.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/favorite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/my_ads.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/my_ads.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/my_auction.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/my_auction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/my_orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/my_orders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/support.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/support.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/terms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/wallet.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/wallet.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2IE52C1utMEUurNLI0By0nfFH9U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="452a8521-b22f-4fe7-9f0f-4fae04402c55" name="Default Changelist" comment="" />
+      <created>1669733692646</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669733692646</updated>
+      <workItem from="1669733693814" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
