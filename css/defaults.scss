@@ -516,7 +516,7 @@ $opacity2:rgba(18, 105, 51, .4);
 // font size
 @for $i from 1 through 100 {
     .font#{$i} {
-        font-size: $i + px !important;
+        font-size: $i + 2 + px !important;
     }
 }
 
@@ -2025,6 +2025,28 @@ input[type=number] {
             color: $main-gry !important; 
             &:after {
                 content: "\f067";
+            }
+        }
+    }
+}
+section.questions{
+    #accordion{
+        button{
+            border-radius: 8px;
+            background-color: $bgf3 !important;
+            color: $main-gry !important; 
+            &:after {
+                font-family: 'FontAwesome';
+                content: "\f077";
+                float: left;
+                color: rgb(129, 129, 129);
+            }
+            &.collapsed{
+                background-color: #fff !important;
+                color: $main-color2 !important;
+                &:after {
+                    content: "\f078";
+                }
             }
         }
     }

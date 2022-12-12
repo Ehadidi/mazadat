@@ -1,62 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d09da063-0e30-4905-82b0-fc90e08c6512" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../css/flatpicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../images/car_behind.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../images/car_front.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../images/car_inside.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../images/car_left.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../images/car_right.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../images/wallet-animation.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../js/flatpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View_auction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/add_car2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispute_details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/open_dispute.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order_veiw.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet_charging.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/defaults.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/defaults.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/defaults.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../css/defaults.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/defaults.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../css/defaults.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../images/images.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../images/مزادات مسيوم.xd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_car.html" beforeDir="false" afterPath="$PROJECT_DIR$/add_car.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all_auctions.html" beforeDir="false" afterPath="$PROJECT_DIR$/all_auctions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions_live.html" beforeDir="false" afterPath="$PROJECT_DIR$/auctions_live.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions_show.html" beforeDir="false" afterPath="$PROJECT_DIR$/auctions_show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/car_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_value.html" beforeDir="false" afterPath="$PROJECT_DIR$/car_value.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars_filter_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/cars_filter_type.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_questions.html" beforeDir="false" afterPath="$PROJECT_DIR$/common_questions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complains.html" beforeDir="false" afterPath="$PROJECT_DIR$/complains.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exhibition.html" beforeDir="false" afterPath="$PROJECT_DIR$/exhibition.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite.html" beforeDir="false" afterPath="$PROJECT_DIR$/favorite.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filter_car_bodies.html" beforeDir="false" afterPath="$PROJECT_DIR$/filter_car_bodies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/harj_cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/harj_cars.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/live_auction.html" beforeDir="false" afterPath="$PROJECT_DIR$/live_auction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_ads.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_ads.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_auction.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_auction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_orders.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/offer_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/offer_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/offers.html" beforeDir="false" afterPath="$PROJECT_DIR$/offers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rating_cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/rating_cars.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/showrooms.html" beforeDir="false" afterPath="$PROJECT_DIR$/showrooms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support.html" beforeDir="false" afterPath="$PROJECT_DIR$/support.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/terms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet.html" beforeDir="false" afterPath="$PROJECT_DIR$/wallet.html" afterDir="false" />
-    </list>
+    <list default="true" id="d09da063-0e30-4905-82b0-fc90e08c6512" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../freelance" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -90,6 +35,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669733711931</updated>
       <workItem from="1669733713122" duration="945000" />
+      <workItem from="1670177996767" duration="58000" />
     </task>
     <servers />
   </component>
@@ -106,5 +52,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
